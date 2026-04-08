@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "gravitygun",
+  "version": "1.0.0",
+  "name": "Gravity Gun",
+  "description": "Adds a Gravity Gun to grab and launch blocks and entities",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.gravitygun.GravityGunMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
